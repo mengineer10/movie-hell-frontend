@@ -1,0 +1,14 @@
+.social-bar{
+    background-color: #000;
+    color: white;
+    width: 100%;
+}
+.social-bar .social-bar-content{
+    display: block;
+    text-align: right;
+    padding: 9px 0 9px 0;
+}
+.social-bar .social-bar-content a{
+    margin-left: 15px;
+    color: #fff;
+}

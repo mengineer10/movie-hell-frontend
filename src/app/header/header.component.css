@@ -1,0 +1,18 @@
+.header{
+    height: 120px;
+    padding-top: 34px;
+}
+.header-icon{
+    font-weight: 900;
+    font-size: 36px;
+}
+.header-icon:hover{
+    cursor: pointer;
+}
+.header-icon label:hover{
+    cursor: pointer;
+}
+.bi-camera-reels{
+    padding-left: 5px;
+    padding-right: 5px;
+}

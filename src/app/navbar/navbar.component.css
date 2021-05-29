@@ -1,0 +1,26 @@
+.navbar-custom {
+    padding: 0;
+}
+.navbar-custom li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:14px;
+}
+.navbar-custom li:hover{
+    background-color: rgba(194,44,44,1) !important;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #fff;
+}
