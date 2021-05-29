@@ -11,3 +11,6 @@ html, body {
 .color-black{
     color:#000 !important;
 }
+label{
+    margin:0;
+}

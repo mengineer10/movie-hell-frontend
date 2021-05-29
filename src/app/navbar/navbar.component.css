@@ -5,6 +5,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-size:14px;
+    font-weight: 500;
 }
 .navbar-custom li:hover{
     background-color: rgba(194,44,44,1) !important;
@@ -22,5 +23,27 @@
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
+    color: #fff;
+}
+
+
+.form-search a{
+    color: #fff;
+    position: absolute;
+    right: 25px;
+}
+.form-search a:hover{
+    text-decoration: none;
+}
+.input-search{
+    background: rgba(0, 0, 0, 0.07);
+    color: #fff;
+    margin: 10px;
+    border: 0;
+    transition: all .55s;
+    border-radius: 60px;
+    padding-right: 40px;
+}
+.input-search::placeholder{
     color: #fff;
 }
