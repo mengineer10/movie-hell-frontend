@@ -19,6 +19,9 @@
 .card-movie .card-movie-body{
     padding: 8px 10px;
 }
+.card-movie .card-movie-body label{
+    cursor: pointer;
+}
 .card-movie .movie-name{
     display: block;
     font-size: 14px;
