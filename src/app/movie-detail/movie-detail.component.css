@@ -5,3 +5,26 @@
     object-fit: cover;
     object-position: center;
 }
+.movie-name{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.movie-detail{
+    margin-top: 5px;
+    font-size: 11px;
+    color: #555;
+    margin-right: 8px;
+    font-weight: 500;
+}
+.movie-description{
+    margin-top: 10px;
+    font-size: 14x;
+    color: #555;
+    font-weight: 500;
+}

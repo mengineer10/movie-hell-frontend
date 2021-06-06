@@ -1,0 +1,13 @@
+.comment-username{
+    color: cornflowerblue;
+}
+.comment-icon{
+    
+}
+.btn-reply{
+    margin-left:10px;
+    font-weight: 600;
+}
+.btn-reply:hover{
+    cursor: pointer;
+}

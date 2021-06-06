@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MovieComponent } from './movie/movie.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterComponent } from './register/register.component';
     FooterComponent,
     MovieComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,
