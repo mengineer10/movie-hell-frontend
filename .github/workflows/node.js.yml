@@ -10,9 +10,9 @@ on:
     branches: [ master ]
 
 jobs:
-  ubuntu-build:
+  windows-build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     strategy:
       matrix:
