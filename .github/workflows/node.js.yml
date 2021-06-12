@@ -29,6 +29,8 @@ jobs:
     - run: npm run build:ci
     - run: npm run test:ci
     - name: Deploy to github pages
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN_MOVIE_HELL }}
-      run: npm run deploy:ci
+      uses: mengineer10/movie-hell-frontend
+      with:  
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages  
+          FOLDER: dist
