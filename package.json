@@ -11,7 +11,7 @@
     "deploy": "ng build -sm -ec -bh /movie-hell-frontend/ & ngh –no-silent",
     "build:ci": "ng build --prod --base-href \"https://mengineer10.github.io/movie-hell-frontend/\"",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadless",
-    "deploy:ci": "ng build -ec & ngh"
+    "deploy:ci": "ng build -sm -ec -bh /movie-hell-frontend/ & ngh –no-silent"
   },
   "private": true,
   "dependencies": {
