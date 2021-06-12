@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng build -sm -ec -bh /movie-hell-frontend/ & ngh –no-silent",
-    "buildForProd": "ng build --prod --base-href \"https://mengineer10.github.io/movie-hell-frontend/\""
+    "build:ci": "ng build --prod --base-href \"https://mengineer10.github.io/movie-hell-frontend/\"",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
