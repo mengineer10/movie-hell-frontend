@@ -28,3 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run build:ci
     - run: npm run test:ci
+    - name: Deploy to github pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_MOVIE_HELL }}
+      run: npm run deploy
