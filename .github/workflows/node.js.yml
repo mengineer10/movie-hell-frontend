@@ -54,9 +54,6 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: deploy_dist
-#      - name: Install rsync 📚
-#        run: |
-#          apt-get update && apt-get install -y rsync
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
